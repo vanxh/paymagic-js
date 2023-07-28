@@ -1,0 +1,23 @@
+{
+  "name": "paymagic",
+  "version": "0.0.1",
+  "description": "A library to interact with Paymagic API.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanxh/paymagic-js.git"
+  },
+  "author": "vanxh",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "paymagic",
+    "patch wallet",
+    "paymagic js"
+  ]
+}
