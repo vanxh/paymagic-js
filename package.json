@@ -1,5 +1,5 @@
 {
-  "name": "paymagic",
+  "name": "@paymagic/js",
   "version": "0.0.1",
   "description": "A library to interact with Paymagic API.",
   "main": "dist/index.js",

@@ -6,6 +6,6 @@ export interface ClientConfig {
   paymagicBaseURL?: string;
   paymagicAPIVersion?: 'v1';
 
-  network: Networkish,
-  ethersProvider: Provider
+  network: Networkish;
+  ethersProvider: Provider;
 }
