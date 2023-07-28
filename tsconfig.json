@@ -11,10 +11,6 @@
     "alwaysStrict": true,
     "pretty": true,
     "outDir": "dist",
-    "baseUrl": "./",
-    "paths": {
-      "@/*": ["src/*"]
-    },
     "incremental": true,
     "noEmitHelpers": true,
     "importHelpers": true,

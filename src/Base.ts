@@ -1,4 +1,4 @@
-import type Client from '@/Client';
+import type Client from './Client';
 
 export default abstract class Base {
   public readonly client!: Client;

@@ -6,11 +6,14 @@ module.exports = {
   extends: [
     'airbnb-base',
     'airbnb-typescript/base',
+    'prettier',
   ],
+  plugins: ['prettier'],
   parserOptions: {
     project: './tsconfig.eslint.json',
   },
   rules: {
+    'prettier/prettier': ['error'],
     '@typescript-eslint/lines-between-class-members': [
       'error',
       'always',
